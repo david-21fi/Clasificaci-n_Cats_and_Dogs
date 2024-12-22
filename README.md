@@ -30,9 +30,9 @@ Para superar este desafío, se utilizaron CNNs con múltiples capas convoluciona
 ## Resultados
 ### Curvas de Entrenamiento
 ![curvas_de_entrenamiento](img/curvas.png)
-### Matrix de Confucion
+### Matrix de Confución
 ![matrix_de_confución](img/matrix.png)
-### Reporte de Clasificacion
+### Reporte de Clasificación
 |              | Precision | Recall | f1-score | Support |
 |--------------|------------|--------|----------|---------|
 | Gato         | 0.93       | 0.95   | 0.94     | 2496    |
