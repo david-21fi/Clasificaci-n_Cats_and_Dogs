@@ -15,3 +15,9 @@ Salida esperada: Etiquetas binarias (0 para gatos, 1 para perros) o categóricas
 El Dataset se selecciono de la plataforma kaggle ['Dog and Cat'](https://www.kaggle.com/datasets/bhavikjikadara/dog-and-cat-classification-dataset)
 
 El conjunto de datos contiene `24.998`imágenes, divididas en `12.499` imágenes de `gatos` y `12.499` imágenes de `perros`. Las imágenes de entrenamiento se dividen por igual, entre imágenes de gatos y perros, mientras que las imágenes de prueba no están etiquetadas. Esto permite a los usuarios evaluar sus modelos en datos no vistos.
+
+<img src='img/datos.png'>
+
+## Modelado 
+### Redes neuronales de Convolución (CNN)
+
