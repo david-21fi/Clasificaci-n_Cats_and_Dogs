@@ -20,4 +20,11 @@ El conjunto de datos contiene `24.998`imágenes, divididas en `12.499` imágenes
 
 ## Modelado 
 ### Redes neuronales de Convolución (CNN)
+Para la deteccion de imagenes de gatos y perros se implemento diferentes arquitecturas (CNN). esto con el fin de aumentar la exactitud en la clasificacion.
+
+Acontinuancion se presentan algunas de las imagenes que se proporcionaron como entrenamiento del modelo, si bien algunas imagenes
+
+<img1 src='img/images'>
+
+Una de las mejores Arquitecturas 
 
