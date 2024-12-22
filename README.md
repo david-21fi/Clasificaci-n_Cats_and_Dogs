@@ -14,7 +14,7 @@ Salida esperada: Etiquetas binarias (0 para gatos, 1 para perros) o categóricas
 
 El Dataset se selecciono de la plataforma kaggle ['Dog and Cat'](https://www.kaggle.com/datasets/bhavikjikadara/dog-and-cat-classification-dataset)
 
-El conjunto de datos contiene `24.998`imágenes, divididas en `12.499` imágenes de `gatos` y `12.499` imágenes de `perros`. Las imágenes de entrenamiento se dividen por igual, entre imágenes de gatos y perros, mientras que las imágenes de prueba no están etiquetadas. Esto permite a los usuarios evaluar sus modelos en datos no vistos.
+El conjunto de datos contiene `24.998`imágenes, divididas en `12.499` imágenes de `gatos` y `12.499` imágenes de `perros`. Las imágenes de entrenamiento se dividen por igual, entre imágenes de gatos y perros.
 
 <img src='img/datos.png'>
 
@@ -43,12 +43,6 @@ Para superar este desafío, se utilizaron CNNs con múltiples capas convoluciona
 | weighted avg | 0.94       | 0.94   | 0.94     | 4990    |
 
 ## Conclusiones
-Si bien el exito de un proyecto de ciencia de datos radica en la voluntad de probar con diferentes algoritmos, en nuestro caso con en el #4 modelo optuvimos las mejores metricas:
-La precisión (accuracy) nos indica el porcentaje total de predicciones correctas.
-El F1-score es la media armónica de precisión y recall, proporcionando una medida balanceada del desempeño del modelo.
+se seleccionó un modelo convolucional personalizado (modelo #4) como el más adecuado para la tarea de clasificación de imágenes de gatos y perros. Este modelo alcanzó una precisión del 94% en los datos de prueba, con una precisión del 93% para la clase 'gato' y del 94% para la clase 'perro'. La puntuación F1, que proporciona una medida balanceada de precisión y recall, también fue de 94% para ambas clases.
 
-+ Accuracy: 94% de exactitud para clasificar `gatos` y `perros` en los datos de test.
-+ Precision: 93% para gatos y 94% para perros.
-+ f_score: 94% para gatos y 94% para perros.
-
-El exito de un proyecto de ciencia de datos radica en la voluntad de probar con diferentes algoritmos, para futuros ejercicios se plante realizar una transferencia de aprendizaje (Tranfer Learning) de la arquitectura `ResNetV2`.
+Como siguiente paso, se propone explorar la técnica de transferencia de aprendizaje utilizando la arquitectura ResNetV2.
