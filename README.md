@@ -24,7 +24,7 @@ Para la deteccion de imagenes de gatos y perros se implemento diferentes arquite
 
 Acontinuancion se presentan algunas de las imagenes que se proporcionaron como entrenamiento del modelo. Las imágenes utilizadas para entrenar los modelos presentaban una amplia gama de características, incluyendo variaciones en color, tamaño y pose de los animales. Por ejemplo, algunas imágenes mostraban a los animales en entornos con iluminación deficiente, mientras que otras capturaban solo una parte de su cuerpo. Esta diversidad en los datos representa un desafío significativo para las CNNs, ya que requiere que los modelos aprendan a extraer características relevantes a partir de imágenes con apariencia muy diferente.
 
-<img1 src='img/images'>
+<img1 src='img/images.png'>
 
 Para superar este desafío, se utilizaron CNNs con múltiples capas convolucionales. Estas capas permiten a la red aprender a detectar patrones locales en las imágenes, como bordes, texturas y formas, que son fundamentales para distinguir entre gatos y perros. A medida que las características se extraen de capas más profundas, la red es capaz de capturar información más abstracta y relevante para la tarea de clasificación.
 
